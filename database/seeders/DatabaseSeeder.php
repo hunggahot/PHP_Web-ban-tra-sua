@@ -331,37 +331,31 @@ class DatabaseSeeder extends Seeder
         DB::table('product_details')->insert([
             [
                 'product_id' => 1,
-                'color' => 'blue',
                 'size' => 'S',
                 'qty' => 5,
             ],
             [
                 'product_id' => 1,
-                'color' => 'blue',
                 'size' => 'M',
                 'qty' => 5,
             ],
             [
                 'product_id' => 1,
-                'color' => 'blue',
                 'size' => 'L',
                 'qty' => 5,
             ],
             [
                 'product_id' => 1,
-                'color' => 'blue',
                 'size' => 'XS',
                 'qty' => 5,
             ],
             [
                 'product_id' => 1,
-                'color' => 'yellow',
                 'size' => 'S',
                 'qty' => 0,
             ],
             [
                 'product_id' => 1,
-                'color' => 'violet',
                 'size' => 'S',
                 'qty' => 0,
             ],
