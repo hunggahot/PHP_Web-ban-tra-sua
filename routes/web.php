@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-//    return view('front.index');
+    return view('front.index');
 
 //    return App\Models\Product::all();
-    return App\Models\Product::find(1)->productImages;
+//    return App\Models\Product::find(1)->productImages;
 });
