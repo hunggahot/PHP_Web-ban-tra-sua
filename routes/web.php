@@ -19,3 +19,4 @@ Route::get('/', function () {
 //    return App\Models\Product::all();
 //    return App\Models\Product::find(1)->productImages;
 });
+
